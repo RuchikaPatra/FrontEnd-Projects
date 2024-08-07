@@ -1,0 +1,101 @@
+/* .App {
+  text-align: center;
+} */
+
+/* AppLayout.css */
+.app-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  background-color: #f2e7e7;
+}
+
+/* Body.css */
+.body {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #afdac9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.restaurant-info {
+  background-color: rgb(184, 153, 197);
+  border-radius: 8px;
+  margin: 15px;
+  padding: 10px;
+}
+
+/* RestaurantList.css */
+.restaurant-list {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* RestaurantCard.css */
+.restaurant-card {
+  background-color: #eede85;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(148, 104, 104, 0.1);
+  transition: transform 0.3s ease;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.restaurant-card:hover {
+  transform: translateY(5px);
+}
+
+.restaurant-card h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #755252;
+}
+
+.restaurant-card p {
+  margin-bottom: 15px;
+  color: #4d2c2c;
+}
+
+.restaurant-card .menu ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.restaurant-card .menu li {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.restaurant-card .menu li::before {
+  content: "\2022";
+  color: #999999;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Header.css */
+
+header {
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  text-align: center; 
+  position: fixed;  
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
+
+header h1 {
+  color: #333; 
+  font-size: 24px; 
+  margin: 0; 
+}
+
+
+

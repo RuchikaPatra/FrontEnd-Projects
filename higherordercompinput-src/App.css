@@ -1,0 +1,18 @@
+
+.App {
+  text-align: center;
+  background-color: rgb(63, 253, 136);
+}
+
+.a{ height: 70vh;
+    width: 100vw;
+    background-color: rgb(63, 253, 136);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    margin-top: 100px;
+}
+
+

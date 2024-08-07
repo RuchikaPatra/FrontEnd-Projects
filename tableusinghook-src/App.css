@@ -1,0 +1,108 @@
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container{
+  background-color: rgb(100, 146, 132);
+ 
+}
+ 
+.table{
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.placeholder{
+  border-radius: 5px; 
+  border: 1px solid rgb(11, 142, 165);
+  height: 22px;
+  margin: 5px;
+}
+ 
+.AddPostBtn{
+  background-color: rgb(170, 255, 230);
+  border: 1px solid rgb(11, 142, 165);
+  border-radius: 5px;
+  height: 25px;
+  margin: 5px;
+}
+.AddPostBtn:hover{
+  background-color: rgb(48, 209, 161);
+}
+ 
+.tableMain{
+  background-color: rgb(243, 222, 127);
+  justify-content: center;
+  display: inline;
+  border: 1px solid rgb(21, 78, 184);
+  border-radius: 5px;
+  padding: 5px;
+}
+ 
+.Postid{
+  background-color: rgb(148, 182, 228);
+  border: 1px solid rgb(21, 78, 184);
+  border-radius: 5px;
+  padding:3px;
+  width: 5px;
+}
+.posttitle{
+  background-color: rgb(170, 255, 230);
+  /* border: 2px solid rgb(220, 134, 228); */
+  border-radius: 5px;
+ 
+}
+ 
+.save{
+  background-color: green;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+ 
+.save:hover{
+  background-color: greenyellow;
+}
+ 
+.edit{
+  background-color: rgb(248, 238, 144);
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+ 
+.edit:hover{
+  background-color: skyblue;
+}
+ 
+ 
+.delete{
+  background-color: rgb(168, 64, 64);
+  border-radius: 5px;
+  border:none;
+  padding: 10px;
+  margin: 5px;
+}
+.delete:hover{
+  background-color: rgb(128, 29, 29);
+}
